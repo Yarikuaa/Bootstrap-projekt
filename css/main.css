@@ -1,0 +1,169 @@
+/*FFOOONNNTTTYYY*/
+#upper{
+    text-transform: uppercase;
+}
+#incolor:hover{
+    color: skyblue;
+    transition: 0.7s;
+}
+
+h2, button{
+    font-family: 'Montserrat', sans-serif;
+    color: #333333;
+}
+h5{
+    font-family: 'Droid Serif', serif;
+    font-style: italic;
+}
+p{
+    font-family: 'Roboto Slab', serif;
+    color: #777777;
+}
+.white{
+    color: white;
+}
+
+/*MAAARRGINNY*/
+.marginesy{
+    padding-bottom: 80px;
+    padding-top: 58px;    
+}
+
+@media (min-width:10px) and (max-width:768px){
+    .container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
+        background-color: skyblue;
+    }}
+
+/*HHEEAADDEERR*/
+#navback{
+    background-color: transparent;
+    border: 0;
+}
+#incolor{
+    color: white;
+}
+
+.backgraung{
+    margin-top: -70px;
+    background-image: url(../img/header/pictures_on_the_wall1.jpg);
+    background-size: cover;
+    height: 85vh;
+    min-height: 500px;
+}
+#incloud{
+    margin-top: 30vh;
+    color: white;
+}
+#incloud h2{
+    font-style: italic;
+}
+h1{
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 8vh;
+}
+
+/*SSEERRWWIICCEESS*/
+#services i{
+    color: white;
+    margin-top: 28px;
+}
+.backicon{
+    margin: 0 auto;
+    background-color: skyblue;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+#icons{
+    margin: 70px;
+}
+
+
+
+/*PPPOOORRTTTFFOOLLIIOO*/
+#portfolio{
+    background-color: #f7f7f7;
+}
+.pojedyncze{
+    background-color: white;
+    margin: 14px auto;
+    width: 350px;
+}
+.pojedyncze p{
+    padding-bottom: 16px;
+}
+
+#potr-in img{
+    width: 100%;
+    background-size: contain;
+    height: 250px;
+    width: 350px;
+}
+
+
+
+
+/*TTTEEEAAAMMM*/
+
+#team-text{
+    margin-top: 45px; 
+}
+#team i{
+    margin: 8px;
+    margin-bottom: 45px;
+    
+}
+.iconteam i:hover{
+    color:  #0ed8d6;
+    transition: 0.8s;
+}
+
+
+
+/*CCCOOOONNNTTTTAAAACCCTTTT*/
+#contact{
+    background-image: url(../img/footer/world-map1.jpg);
+    text-align: center;
+    position: relative;
+}
+
+#con-hed{
+    color: white;
+}
+#kontakt i{
+    margin: 15px;
+}
+@media (min-width: 1000px){
+#forma {
+    text-align: right;
+    }}
+
+@media (min-width: 1000px){
+#textar {
+    text-align: left;
+    }}    
+
+textarea, input{
+    width: 460px;
+    border: 0;
+    border-radius: 5px;
+    margin: 7px;
+    padding: 7px;
+    height: 46px;
+}
+#textar textarea{
+    height: 166px;
+}
+
+
+
+/*FFFOOOTTTEEERRR*/
+#footer{
+    text-align: center;
+    margin-top: 9px;
+}
+#footer i:hover{
+    color: #0ed8d6;
+    transition: 0.8s;
+}
